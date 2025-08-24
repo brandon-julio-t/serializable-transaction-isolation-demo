@@ -1,0 +1,22 @@
+{
+  "name": "serializable-transaction-isolation-demo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "demo:default-isolation": "bun run src/default-isolation.ts",
+    "demo:serializable-isolation": "bun run src/serializable-isolation.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "@types/node": "^24.3.0",
+    "prisma": "^6.14.0",
+    "tsx": "^4.20.5"
+  }
+}
